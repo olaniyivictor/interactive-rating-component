@@ -29,7 +29,7 @@ rateButton.addEventListener('click',function(){
 })
 
 //Taking all the btn button to the Dom
-const button=document.querySelectorAll('#btn');
+const button=document.querySelectorAll('.btns');
 console.log(button);
 //Let select the 
 const number=document.querySelector('#number');
@@ -38,5 +38,4 @@ button.forEach((buttons) =>{
     buttons.addEventListener('click',function(){
         number.innerHTML=buttons.innerHTML;
     })
-
 })
