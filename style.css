@@ -16,7 +16,6 @@
 }
 body{
     background-color:var(---VeryDarkBlue) ;
-    width: 100vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -62,7 +61,6 @@ h1{
     cursor: pointer;
     transition: 0.4s;
     color: var(--MediumGrey);
-    background-color:transparent;
 }
 .div2{
     background-color: hsl(213, 20%, 22%);
@@ -113,7 +111,7 @@ h1{
     background-color: var(---Orange);
     color: var(--White);
 }
-.div2:active,
+
  .div2:focus{
     background-color: var(--MediumGrey);
     color: var(--White);
@@ -124,7 +122,7 @@ h1{
     background-color: var(---Orange);
     color:var(--White) ;
 }
-.div3:active,
+
  .div3:focus{
     background-color: var(--MediumGrey);
     color: var(--White);
@@ -133,7 +131,7 @@ h1{
     background-color: var(---Orange);
     color: var(--White);
 }
-.div4:active,
+
  .div4:focus{
     background-color: var(--MediumGrey);
     color: var(--White);
@@ -143,7 +141,7 @@ h1{
     background-color: var(---Orange);
     color: var(--White);
 }
-.div5:focus:active,
+
  .div5:focus{
     background-color: var(--MediumGrey);
     color: var(--White);
@@ -152,7 +150,7 @@ h1{
     background-color: var(---Orange);
     color: var(--White);
 }
-.div6:active,
+
  .div6:focus{
     background-color: var(--MediumGrey);
     color: var(--White);
@@ -255,15 +253,7 @@ h2{
     body{
         overflow: hidden;
     }
-    .attribution {
-        font-size: 0.5rem;
-        text-align: center; 
-        color: var(--White);
-        margin-top: 3rem;
-    }
-    .attribution a { 
-        color: var(--White); 
-    }
+   
     .flex-container{
         padding-left: 2rem;
         padding-top: 1rem;
@@ -304,7 +294,7 @@ h2{
         background-color: var(---Orange);
         color: var(--White);
     }
-    .div2:active,
+
      .div2:focus{
         background-color: var(--MediumGrey);
         color: var(--White);
@@ -315,7 +305,7 @@ h2{
         background-color: var(---Orange);
         color:var(--White) ;
     }
-    .div3:active,
+    
      .div3:focus{
         background-color: var(--MediumGrey);
         color: var(--White);
@@ -324,7 +314,7 @@ h2{
         background-color: var(---Orange);
         color: var(--White);
     }
-    .div4:active,
+    
      .div4:focus{
         background-color: var(--MediumGrey);
         color: var(--White);
@@ -334,7 +324,7 @@ h2{
         background-color: var(---Orange);
         color: var(--White);
     }
-    .div5:focus:active,
+    
      .div5:focus{
         background-color: var(--MediumGrey);
         color: var(--White);
@@ -343,11 +333,22 @@ h2{
         background-color: var(---Orange);
         color: var(--White);
     }
-    .div6:active,
+    
      .div6:focus{
         background-color: var(--MediumGrey);
         color: var(--White);
     }
+    body{
+        background-color:var(---VeryDarkBlue) ;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        flex-direction: column;
+        margin: 1.5rem;
+       
+    }
+    
   
 }
 
