@@ -1,0 +1,355 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+--White:hsl(0, 0%, 100%);
+---LightGrey: hsl(217, 12%, 63%);
+--MediumGrey: hsl(216, 12%, 54%);
+--DarkBlue: hsl(213, 19%, 18%);
+---VeryDarkBlue: hsl(216, 12%, 8%);
+---Orange: hsl(25, 97%, 53%);
+}
+body{
+    background-color:var(---VeryDarkBlue) ;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+   
+}
+.div1{
+    max-width: 300px;
+    height: 60%;
+    background-color: var(--DarkBlue);
+    border-radius: 1.2rem;
+
+}
+.image{
+    margin-top: 2rem;
+    margin-left: 2rem;
+    background-color:hsl(213, 20%, 22%);
+    border-radius: 50%;
+    padding: 0.6rem;
+}
+h1{
+    padding-left: 2rem;
+    font-size: 1.5rem;
+    color: var(--White);
+    font-weight: 700;
+    padding-top: 1rem;
+}
+.please{
+    margin-top: 0.6rem;
+    padding-left: 2rem;
+    font-size: 0.80rem;
+    padding-right: 1.5rem;
+    line-height: 1.2rem;
+    color: var(---LightGrey);
+}
+.flex-container{
+    padding-left: 2rem;
+    padding-top: 1rem;
+    gap: 1rem;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.4s;
+    color: var(--MediumGrey);
+    background-color:transparent;
+}
+.div2{
+    background-color: hsl(213, 20%, 22%);
+    border-radius: 20rem;
+    padding: 0.8rem;
+    width: 2rem;
+    height:2rem;
+    display: flex;
+    align-items: center;
+    
+}.div3{
+    background-color: hsl(213, 20%, 22%);
+    border-radius: 20rem;
+    padding: 0.8rem;
+    width: 2rem;
+    height:2rem;
+    display: flex;
+    align-items: center;
+}
+.div4{
+    background-color: hsl(213, 20%, 22%);
+    border-radius: 20rem;
+    padding: 0.8rem;
+    width: 2rem;
+    height:2rem;
+    display: flex;
+    align-items: center;
+}
+.div5{
+    background-color: hsl(213, 20%, 22%);
+    border-radius: 20rem;
+    padding: 0.8rem;
+    width: 2rem;
+    height:2rem;
+    display: flex;
+    align-items: center;
+}
+.div6{
+    background-color: hsl(213, 20%, 22%);
+    border-radius: 20rem;
+    padding: 0.8rem;
+    width: 2rem;
+    height:2rem;
+    display: flex;
+    align-items: center;
+}
+.div2:hover{
+    background-color: var(---Orange);
+    color: var(--White);
+}
+.div2:active,
+ .div2:focus{
+    background-color: var(--MediumGrey);
+    color: var(--White);
+}
+
+
+.div3:hover{
+    background-color: var(---Orange);
+    color:var(--White) ;
+}
+.div3:active,
+ .div3:focus{
+    background-color: var(--MediumGrey);
+    color: var(--White);
+}
+.div4:hover{
+    background-color: var(---Orange);
+    color: var(--White);
+}
+.div4:active,
+ .div4:focus{
+    background-color: var(--MediumGrey);
+    color: var(--White);
+}
+
+.div5:hover{
+    background-color: var(---Orange);
+    color: var(--White);
+}
+.div5:focus:active,
+ .div5:focus{
+    background-color: var(--MediumGrey);
+    color: var(--White);
+}
+.div6:hover{
+    background-color: var(---Orange);
+    color: var(--White);
+}
+.div6:active,
+ .div6:focus{
+    background-color: var(--MediumGrey);
+    color: var(--White);
+}
+
+.div7{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding-bottom: 2rem;
+}
+.btn-primary{
+    width: 80%;
+    background-color: var(---Orange);
+    padding-top: 0.6rem;
+    padding-bottom: 0.6rem;
+    border: none;
+    border-radius: 1rem;
+    color:var(--White);
+    letter-spacing: 0.1rem;
+    transition: 0.4s;
+    cursor: pointer;
+}
+.btn-primary:hover{
+    background-color: var(--White);
+    color: var(---Orange);
+}
+.div9{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.imager{
+    margin-top: 2rem;
+}
+.div10{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+.btn{
+    background-color: hsl(213,20%,22%);
+    border: none;
+    padding-left:0.8rem ;
+    padding-right:0.8rem ;
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+    border-radius: 0.8rem;
+    color: hsl(25, 97%, 53%);
+}
+h2{
+    text-align: center;
+    padding-top: 1.3rem;
+    color: var(--White);
+}
+.we{
+    font-size: 0.75rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    line-height: 1rem;
+    padding-top: 0.4rem;
+    text-align: center;
+    color: var(---LightGrey);
+    padding-bottom: 1.5rem;
+}
+
+.div1{
+    max-width: 300px;
+    height: 60%;
+    background-color: var(--DarkBlue);
+    border-radius: 1.2rem;
+}
+.div12{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 1.5rem;
+
+}
+.hidden{
+    display: none;
+}
+.attribution {
+    font-size: 1.0rem;
+    text-align: center; 
+    color: var(--White);
+    margin-top: 3rem;
+}
+.attribution a { 
+    color: var(--White); 
+}
+
+@media screen  and (max-width:701px) {
+    .div1{
+        max-width: 350px;
+        height: 60%;
+        background-color: var(--DarkBlue);
+        border-radius: 1.2rem;
+    }
+    body{
+        overflow: hidden;
+    }
+    .attribution {
+        font-size: 0.5rem;
+        text-align: center; 
+        color: var(--White);
+        margin-top: 3rem;
+    }
+    .attribution a { 
+        color: var(--White); 
+    }
+    .flex-container{
+        padding-left: 2rem;
+        padding-top: 1rem;
+        gap: 2rem;
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        transition: 0.4s;
+    }
+    
+    .div7{
+        margin-top: 2rem;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        padding-bottom: 2rem;
+    }
+    .btn-primary{
+        width: 80%;
+        background-color: var(---Orange);
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        border: none;
+        border-radius: 2.2rem;
+        color:var(--White);
+        letter-spacing: 0.1rem;
+        transition: 0.4s;
+        cursor: pointer;
+    }
+    .div2:hover{
+        background-color: var(---Orange);
+    }
+    .btn-primary:hover{
+        background-color: var(--White);
+        color: var(---Orange);
+    }
+    .div2:hover{
+        background-color: var(---Orange);
+        color: var(--White);
+    }
+    .div2:active,
+     .div2:focus{
+        background-color: var(--MediumGrey);
+        color: var(--White);
+    }
+    
+    
+    .div3:hover{
+        background-color: var(---Orange);
+        color:var(--White) ;
+    }
+    .div3:active,
+     .div3:focus{
+        background-color: var(--MediumGrey);
+        color: var(--White);
+    }
+    .div4:hover{
+        background-color: var(---Orange);
+        color: var(--White);
+    }
+    .div4:active,
+     .div4:focus{
+        background-color: var(--MediumGrey);
+        color: var(--White);
+    }
+    
+    .div5:hover{
+        background-color: var(---Orange);
+        color: var(--White);
+    }
+    .div5:focus:active,
+     .div5:focus{
+        background-color: var(--MediumGrey);
+        color: var(--White);
+    }
+    .div6:hover{
+        background-color: var(---Orange);
+        color: var(--White);
+    }
+    .div6:active,
+     .div6:focus{
+        background-color: var(--MediumGrey);
+        color: var(--White);
+    }
+  
+}
+
+
+    
